@@ -156,6 +156,14 @@
 
 
 
+    .upd-box {
+        --pad: 120px;
+    }
+    .icon-i-single {
+        height: 330px;
+    }
+
+
 }
 
 /* Normal desktop :992px. */
@@ -229,6 +237,114 @@
     }
 
 
+    .hero-or-title h2 {
+        font-size: 30px;
+    }
+    .hero-or-title {
+        margin: 0 0 30px;
+    }
+    .hero-or-area {
+        padding: 30px 0;
+    }
+    .hero-or-txts {
+        margin: 25px 0 0;
+    }
+    .sd-cont-wrap {
+        --inner-space: 20px;
+    }
+    .sd-area {
+        margin: 0 0 20px;
+    }
+    .upd-ring-data-all {
+        padding: 40px;
+    }
+    .upd-ring-data-single .ring-side .ring {
+        height: 60px;
+        width: 60px;
+        margin: 0 10px 0 0;
+        border-width: 7px;
+    }
+    .upd-ring-data-g h4 {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+    .upd-ring-data-single .text-side p {
+        font-size: 12px;
+        margin: 0 0 6px;
+    }
+    .upd-ring-data-g {
+        margin: 0 0 45px;
+    }
+    .icon-i-single {
+        height: 260px;
+    }
+    .icon-i-single .overlay-title h4 {
+        font-size: 20px;
+    }
+    .icon-i-single .icon img {
+        transform: scale(0.5);
+    }
+    .icon-i-single .icon {
+        height: 42px;
+        margin: 0 0 14px;
+    }
+    .icon-i-single .text p {
+        font-size: 13px;
+    }
+    .icon-i-area {
+        margin: 0 0 20px;
+    }
+    .upd-col-data-column h4 {
+        font-size: 12px;
+        letter-spacing: 8px;
+        margin: 0 0 16px;
+    }
+    .upd-col-data-column h3 {
+        font-size: 35px;
+    }
+    .upd-col-data-column .h3b {
+        font-size: 35px;
+    }
+    .content-kfd .tp-arr {
+        width: 60px;
+    }
+    .content-kfd .cont-in h4 {
+        font-size: 19px;
+        margin: 0 0 10px;
+    }
+    .content-kfd .cont-in h3 {
+        font-size: 27px;
+        margin: 0 0 4px;
+    }
+    .content-kfd .cont-in p {
+        font-size: 15px;
+    }
+    .content-kfd {
+        padding: 40px 40px 20px;
+    }
+    .fluid-section {
+        margin: 0 0 20px;
+    }
+    .mop-area-title h2 {
+        font-size: 30px;
+    }
+    .mop-area-title {
+        margin: 0 0 25px;
+    }
+    .mop-area {
+        padding: 30px 0;
+    }
+    .mop-single .text-part h4 {
+        font-size: 20px;
+    }
+    .mop-buttons .button {
+        margin-left: 6px;
+        font-size: 13px;
+    }
+    .mop-single .image-part .mop-buttons {
+        bottom: 15px;
+        left: 15px;
+    }
 }
 
  
@@ -298,7 +414,87 @@
     }
 
 
-
+    .hero-or-txts {
+        flex-wrap: wrap;
+    }
+    .hero-or-txts .text-group {
+        margin: 0 0 10px;
+        width: 100% !important;
+    }
+    .hero-or-txts .text-group p {
+        font-size: 13px;
+        margin: 0 0 12px;
+    }
+    .hero-or-image {
+        order: -1;
+    }
+    .hero-or-area-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-or-title {
+        margin: 25px 0 0px;
+    }
+    .upd-ring-data-wrap {
+        --item: 2;
+        justify-content: flex-start;
+    }
+    .icon-i-wrapper {
+        --item: 4;
+    }
+    .udp-col-data {
+        padding: 40px;
+    }
+    .upd-col-data-wrapper {
+        --inner-space: 10px;
+    }
+    .hero-or-txts {
+        position: relative;
+    }
+    .mobi-right {
+        position: absolute;
+        top: -50px;
+        left: 0;
+    }
+    .hero-or-txts {
+        margin: 12px 0 0;
+    }
+    .sd-cont-wrap {
+        --item: 1;
+    }
+    .upd-box {
+        --pad: 60px;
+    }
+    .upd-ring-data-wrap {
+        --item: 1;
+    }
+    .upd-ring-data-all {
+        padding: 20px 15px;
+    }
+    .icon-i-wrapper {
+        --item: 3;
+    }
+    .upd-col-data-wrapper {
+        --inner-space: 30px;
+        --bt-space: var(--inner-space);
+        --item: 1;
+    }
+    .udp-col-data {
+        padding: 40px 15px;
+    }
+    .content-kfd {
+        padding: 29px 20px 20px;
+    }
+    .content-kfd .tp-arr {
+        margin: 0 0 30px;
+    }
+    .mop-wrapper {
+        --item: 1;
+    }
+    .mop-single .image-part {
+        height: 270px;
+    }
+    
 
 }
 
@@ -528,9 +724,19 @@
         display: none;
     }
 
-
-
 }
+
+
+@media (max-width: 576px) {
+    .hero-or-area {
+        padding-top: 0;
+    }
+    .hero-or-image {
+        margin: 0 -12px;
+        width: calc(100% + 24px);
+    }
+}
+
  
 /* small mobile :320px. */
 @media (max-width: 360px) {
