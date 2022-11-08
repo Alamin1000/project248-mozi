@@ -29,6 +29,10 @@ $( document ).ready(function() {
     });
 
 
+    $('.ab-faq-title').click(function(event) {
+        event.preventDefault();
+    });
+
 
     // slider-js
     const swiperOne = new Swiper('.who-slide-active', {
