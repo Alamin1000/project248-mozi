@@ -234,6 +234,38 @@
         padding-left: 0;
     }
 
+
+    .insert-cwr-title-side p {
+        font-size: 18px;
+    }
+    .single-cwr-cont h4 {
+        font-size: 18px;
+    }
+    .single-cwr-cont p {
+        font-size: 18px;
+    }
+    .single-cwr-cont .image {
+        width: 180px;
+        margin: 0 auto 20px;
+    }
+    .single-cwr-cont {
+        padding: 0 70px;
+        width: 500px;
+    }
+    .single-cwr-cont .final-content h3 {
+        font-size: 19px;
+        margin: 0 0 25px;
+    }
+    .single-cwr-cont .final-content .button {
+        font-size: 14px;
+        padding: 14px 21px;
+    }
+    .insert-crw-content-side .title h4 {
+        font-size: 18px;
+    }
+    .insert-crw-content-side .title {
+        padding: 0 70px 8px;
+    }
 }
 
 /* Normal desktop :992px. */
@@ -482,6 +514,7 @@
     .pg-cont-single {
         margin-bottom: 25px;
     }
+
 }
 
  
@@ -645,6 +678,53 @@
     .pg-cont-1 .pg-cont-single-inner-2nd {
         margin: -85px auto 0 20px;
     }
+
+
+    .insert-crw-1 {
+        flex-wrap: wrap;
+    }
+    .insert-cwr-title-side {
+        width: 100%;
+        padding: 0 0 50px;
+    }
+    .insert-crw-content-side {
+        width: 100%;
+        margin: 0;
+    }
+    .cwr-cont-wrap {
+        flex-wrap: wrap;
+    }
+    .single-cwr-cont {
+        margin: 0 0 20px;
+        width: 100%;
+        border: none;
+    }
+    .single-cwr-cont .number {
+        margin: 0 20px 0 0;
+    }
+    .insert-crw-content-side .title {
+        padding: 0px 0px 10px;
+    }
+    .insert-crw-content-side .title h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .single-cwr-cont .final-content {
+        padding: 20px 0 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .single-cwr-cont .final-content .button {
+        background: #fff;
+        color: #000;
+    }
+    .single-cwr-cont .final-content h3 {
+        font-size: 21px;
+        margin: 0 0 24px;
+    }
+
 }
 
  
@@ -982,6 +1062,24 @@
     .pg-cont-7 .image {
         width: 115px;
         margin: 0 auto;
+    }
+
+
+    .insert-cwr-title-side .anm-h2 {
+        margin: 0 -5% 0px -15%;
+    }
+    .insert-section {
+        padding: 30px 0 30px;
+    }
+    .insert-cwr-title-side {
+        padding: 0 0 20px;
+    }
+    .single-cwr-cont {
+        margin: 0 0 20px;
+        padding: 0;
+    }
+    .single-cwr-cont .number {
+        margin: 0 25px 0 0;
     }
 }
 
