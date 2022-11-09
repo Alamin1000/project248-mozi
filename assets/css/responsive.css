@@ -205,6 +205,29 @@
     .blog-area {
         padding: 55px 0 70px;
     }
+
+
+    .article-ht h2 {
+        font-size: 40px;
+    }
+    .article-texts p {
+        font-size: 14px;
+    }
+    .article-texts {
+        margin: 0 0 25px;
+    }
+    .side-article-single .texts p {
+        font-size: 13px;
+    }
+    .article-sidebar .title {
+        margin: 0 0 20px;
+    }
+    .article-area {
+        padding: 30px 0;
+    }
+    .article-ht h4 {
+        font-size: 12px;
+    }
 }
 
 /* Normal desktop :992px. */
@@ -590,6 +613,14 @@
     }
     
 
+    .article-main {
+        width: 60%;
+    }
+    .article-ht h2 {
+        font-size: 30px;
+        margin: 0 0 10px;
+    }
+
 }
 
  
@@ -879,6 +910,25 @@
     }
     .blog-area {
         padding: 25px 0 70px;
+    }
+
+
+    .article-area {
+        padding: 17px 0;
+    }
+    .article-area-row1 {
+        flex-wrap: wrap;
+    }
+    .article-main {
+        width: 100%;
+    }
+    .article-ht h2 {
+        font-size: 25px;
+        margin: 0 0 10px;
+    }
+    .article-sidebar {
+        padding: 10px 0 0;
+        width: 100%;
     }
 }
 
